@@ -1,0 +1,15 @@
+{
+  "name": "sbomtest",
+  "version": "1.0.0-123+456",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-sbom": "npx cyclonedx-npm --output-file sbom.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cyclonedx/cyclonedx-npm": "^1.9.0"
+  }
+}
